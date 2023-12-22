@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/contact.css" />
+    <title>Register</title>
+  </head>
+  <body>
+    <form class="form">
+      <div class="form__prev">
+        <a class="form__prev-btn" href="./index.html">
+          <img src="./image/arrow-left.svg" alt="arrow" />
+        </a>
+        <span class="form__prev-text"> Geriyə</span>
+      </div>
+
+      <h1 class="form__title">Qeydiyyatdan keç</h1>
+      <p class="form__content">Məlumatlarınızı daxil edin</p>
+
+      <div class="form__phone">
+        <label class="form__phone-lbl" for="Tel">Mobil nömrə</label>
+        <div class="rltv">
+          <input
+            class="form__phone-inpt"
+            type="number"
+            placeholder="+994 001234567"
+          />
+          <img class="form__phone-icon" src="./image/phone.svg" alt="phone" />
+        </div>
+        <div class="message"></div>
+      </div>
+
+      <div class="form__email">
+        <label class="form__email-lbl" for="e-mail">E-mail</label>
+        <div class="rltv">
+          <input
+            class="form__email-inpt"
+            type="text"
+            placeholder="hesab@hesab.az"
+          />
+
+          <img class="form__email-icon" src="./image/mail.svg" alt="mail" />
+        </div>
+        <div class="warning"></div>
+      </div>
+
+      <div class="form__confirmation">
+        <input class="form__confirmation-inpt" type="checkbox" />
+        <label class="form__confirmation-lbl"
+          >"Davam et" düyməsini klik edərək, siz Hesab.az
+          <b><u>Qaydaları və Şərtləri</u></b> ilə <br />
+          razı olduğunuzu bildirmiş olursunuz</label
+        >
+      </div>
+      <button class="form__btn" type="submit">Davam et</button>
+    </form>
+    <script src="./js/contact.js"></script>
+  </body>
+</html>

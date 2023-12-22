@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/about.css" />
+    <title>Forgot password</title>
+  </head>
+  <body>
+    <form class="form">
+      <div class="form__prev">
+        <a class="form__prev-btn" href="./index.html">
+          <img src="./image/arrow-left.svg" alt="arrow" />
+        </a>
+        <span class="form__prev-text"> Geriyə</span>
+      </div>
+
+      <h1 class="form__title">Şifrəni unutmusunuz?</h1>
+      <p class="form__content">
+        Şifrənin yenilənməsi barədə təlimat dərhal e-mail <br />
+        ünvanınıza göndəriləcək. Əgər e-mail ünvanınız təsdiqli <br />
+        deyilsə, zəhmət olmasa Müştəri Xidmətləri ilə əlaqə <br />
+        saxlayın (*0713)
+      </p>
+
+      <div class="form__email-phone">
+        <label class="form__email-phone-lbl" for="Email Tel"
+          >Email və ya mobil nömrə</label
+        >
+        <div class="rltv">
+          <input
+            class="form__email-phone-inpt"
+            type="text"
+            placeholder="hesab@hesab.az və ya 994 00 123 45 67"
+          />
+          <div class="message"></div>
+          <img
+            class="form__email-phone-icon"
+            src="./image/user.svg"
+            alt="user"
+          />
+        </div>
+      </div>
+
+      <div class="form__confirmation">
+        <div class="form__confirmation-elements">
+          <input class="form__confirmation-elements-inpt" type="checkbox" />
+          <label>Mən robot deyiləm</label>
+        </div>
+        <img src="./image/loading.svg" alt="loading" />
+      </div>
+
+      <button class="form__btn" type="submit">Şifrəni yenilə</button>
+    </form>
+    <script src="./js/about.js"></script>
+  </body>
+</html>

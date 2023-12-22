@@ -1,0 +1,112 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #eef1f4;
+}
+.form {
+  margin-top: 8%;
+  line-height: 40px;
+  font-family: "Proxima Nova", sans-serif;
+  &__title {
+    font-size: 60px;
+  }
+  &__content {
+    opacity: 0.5;
+    font-size: 30px;
+  }
+  &__email-phone {
+    display: flex;
+    flex-direction: column;
+    &-lbl {
+      opacity: 0.5;
+    }
+    &-inpt {
+      padding: 20px 0px 20px 56px;
+      width: 87%;
+      border-radius: 10px;
+      border: 0.5px solid black;
+      background-color: transparent;
+    }
+    &-icon {
+      position: absolute;
+      top: 15px;
+      left: 15px;
+    }
+  }
+  &__password {
+    display: flex;
+    flex-direction: column;
+    &-lbl {
+      opacity: 0.5;
+    }
+    &-inpt {
+      padding: 20px 0px 20px 56px;
+      width: 87%;
+      border-radius: 10px;
+      border: 0.5px solid black;
+      background-color: transparent;
+    }
+    &-icon-lock {
+      position: absolute;
+      bottom: 17px;
+      left: 18px;
+    }
+    &-icon-eye {
+      position: absolute;
+      cursor: pointer;
+      bottom: 15px;
+      right: 20px;
+    }
+    &-icon-eye-off {
+      position: absolute;
+      bottom: 15px;
+      right: 20px;
+      cursor: pointer;
+      display: none;
+    }
+  }
+  &__remember {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    &-forgot {
+      a {
+        color: #1a75ff;
+      }
+    }
+  }
+  &__submit {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    &-enter {
+      padding: 15px 60px;
+      border-radius: 10px;
+      border: none;
+      background-color: #1a75ff;
+      color: #fff;
+      font-size: 20px;
+      cursor: pointer;
+    }
+    &-newaccount {
+      padding: 10px 60px;
+      border-radius: 10px;
+      border: 0.5px solid #1a75ff;
+      color: #1a75ff;
+      background-color: #fff;
+      font-size: 20px;
+      text-decoration: none;
+      text-align: center;
+      transition: 0.2s ease-in-out;
+      cursor: pointer;
+      &:hover {
+        background-color: #1a75ff;
+        color: #fff;
+      }
+    }
+  }
+  .rltv {
+    position: relative;
+  }
+}

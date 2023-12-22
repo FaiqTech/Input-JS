@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/home.css" />
+    <title>Hesab az</title>
+  </head>
+  <body>
+    <form class="form">
+      <h1 class="form__title">Hesaba daxil ol</h1>
+      <p class="form__content">Məlumatlarınızı daxil edin</p>
+
+      <div class="form__email-phone">
+        <label class="form__email-phone-lbl" for="Email Tel"
+          >Email və ya mobil nömrə</label
+        >
+        <div class="rltv">
+          <input
+            class="form__email-phone-inpt"
+            type="text"
+            placeholder="hesab@hesab.az və ya 994 00 123 45 67"
+          />
+          <div class="message"></div>
+          <img
+            class="form__email-phone-icon"
+            src="./image/user.svg"
+            alt="user"
+          />
+        </div>
+      </div>
+
+      <div class="form__password">
+        <label class="form__password-lbl" for="Şifrə">Şifrə</label>
+
+        <div class="rltv">
+          <input
+            class="form__password-inpt"
+            type="password"
+            placeholder="******"
+          />
+          <img
+            class="form__password-icon-lock"
+            src="./image/lock.svg"
+            alt="lock"
+          />
+          <img
+            class="form__password-icon-eye"
+            src="./image/eye.svg"
+            alt="eye"
+          />
+          <img
+            class="form__password-icon-eye-off"
+            src="./image/eye-off.svg"
+            alt="eye-off"
+          />
+        </div>
+      </div>
+      <div class="warning"></div>
+      <div class="form__remember">
+        <div class="form__remember-inpt">
+          <input type="checkbox" />
+          <label for="remember">Yadda saxla</label>
+        </div>
+
+        <div class="form__remember-forgot">
+          <a href="./about.html">Şifrəni unutmusunuz?</a>
+        </div>
+      </div>
+
+      <div class="form__submit">
+        <button class="form__submit-enter" type="submit">Daxil ol</button>
+
+        <a href="./contact.html" class="form__submit-newaccount" type="submit">
+          Yeni hesab yaradın
+        </a>
+      </div>
+    </form>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
